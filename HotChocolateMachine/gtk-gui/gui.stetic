@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stetic-interface>
+  <configuration>
+    <images-root-path>..</images-root-path>
+    <target-gtk-version>2.12</target-gtk-version>
+  </configuration>
+  <import>
+    <widget-library name="glade-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <widget-library name="../bin/Release/HotChocolateMachine.exe" internal="true" />
+  </import>
+  <widget class="Gtk.Window" id="MainWindow" design-size="295 169">
+    <property name="MemberName" />
+    <property name="Title" translatable="yes">Hot Chocolate Machine</property>
+    <property name="WindowPosition">CenterOnParent</property>
+    <signal name="DeleteEvent" handler="OnDeleteEvent" />
+    <child>
+      <widget class="Gtk.Fixed" id="fixed1">
+        <property name="MemberName" />
+        <property name="HasWindow">False</property>
+        <child>
+          <widget class="Gtk.RadioButton" id="ckbN">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Label" translatable="yes">Nickel (5 ¢)</property>
+            <property name="Active">True</property>
+            <property name="DrawIndicator">True</property>
+            <property name="HasLabel">True</property>
+            <property name="UseUnderline">True</property>
+            <property name="Group">group1</property>
+          </widget>
+          <packing>
+            <property name="X">20</property>
+            <property name="Y">20</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.RadioButton" id="ckbD">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Label" translatable="yes">Dime (10 ¢)</property>
+            <property name="DrawIndicator">True</property>
+            <property name="HasLabel">True</property>
+            <property name="UseUnderline">True</property>
+            <property name="Group">group1</property>
+          </widget>
+          <packing>
+            <property name="X">20</property>
+            <property name="Y">40</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.RadioButton" id="ckbQ">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Label" translatable="yes">Quarter (25 ¢)</property>
+            <property name="DrawIndicator">True</property>
+            <property name="HasLabel">True</property>
+            <property name="UseUnderline">True</property>
+            <property name="Group">group1</property>
+          </widget>
+          <packing>
+            <property name="X">20</property>
+            <property name="Y">60</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="btnInsertMoney">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">Insert Money</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="OnBtnInsertMoneyClicked" />
+          </widget>
+          <packing>
+            <property name="X">160</property>
+            <property name="Y">16</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="lblMoneyInside">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">0 ¢</property>
+          </widget>
+          <packing>
+            <property name="X">250</property>
+            <property name="Y">65</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="label2">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">Money Inside:</property>
+          </widget>
+          <packing>
+            <property name="X">160</property>
+            <property name="Y">65</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="label3">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">Carry over:</property>
+          </widget>
+          <packing>
+            <property name="X">20</property>
+            <property name="Y">100</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="label5">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">Hot Chocolate:</property>
+          </widget>
+          <packing>
+            <property name="X">20</property>
+            <property name="Y">120</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="lblProduct">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">Not yet</property>
+          </widget>
+          <packing>
+            <property name="X">160</property>
+            <property name="Y">120</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="lblCarryOver">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">0 ¢</property>
+          </widget>
+          <packing>
+            <property name="X">160</property>
+            <property name="Y">100</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</stetic-interface>
