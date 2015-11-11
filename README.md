@@ -17,4 +17,4 @@ A glass of hot chocolate costs 25¢. The machine should give the user the produc
 ![Screenshot](/docs/example.png)
 
 ## License
-This stuff is licensed with :heart: under [the MIT license](/LICENSE).
+This stuff is licensed with :heart: under [The KINDLY license](/LICENSE).
