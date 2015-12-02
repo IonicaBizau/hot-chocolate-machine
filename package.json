@@ -1,0 +1,43 @@
+{
+  "name": "hot-chocolate-machine",
+  "version": "1.0.0",
+  "description": "An application that simulates how a hot chocolate machine works.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IonicaBizau/hot-chocolate-machine.git"
+  },
+  "keywords": [
+    "hot",
+    "chocolate",
+    "machine"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/hot-chocolate-machine/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/hot-chocolate-machine#readme",
+  "blah": {
+    "title": "Hot Chocolate Machine",
+    "ex_img": "/docs/example.png",
+    "description": [
+        { "h2": "Question" },
+        { "p": "Build a machine simulator that accepts the following coins:" },
+        {
+            "ul": [
+                "Nickel (5 ¢)",
+                "Dime (10 ¢)",
+                "Quarter (25 ¢)"
+            ]
+        },
+        { "p": "A glass of hot chocolate costs 25¢. The machine should give the user the product and the carry over." }
+  ]
+  }
+}
