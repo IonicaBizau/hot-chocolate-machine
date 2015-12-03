@@ -28,16 +28,22 @@
     "title": "Hot Chocolate Machine",
     "ex_img": "/docs/example.png",
     "description": [
-        { "h2": "Question" },
-        { "p": "Build a machine simulator that accepts the following coins:" },
-        {
-            "ul": [
-                "Nickel (5 ¢)",
-                "Dime (10 ¢)",
-                "Quarter (25 ¢)"
-            ]
-        },
-        { "p": "A glass of hot chocolate costs 25¢. The machine should give the user the product and the carry over." }
-  ]
+      {
+        "h2": "Question"
+      },
+      {
+        "p": "Build a machine simulator that accepts the following coins:"
+      },
+      {
+        "ul": [
+          "Nickel (5 ¢)",
+          "Dime (10 ¢)",
+          "Quarter (25 ¢)"
+        ]
+      },
+      {
+        "p": "A glass of hot chocolate costs 25¢. The machine should give the user the product and the carry over."
+      }
+    ]
   }
 }
