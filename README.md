@@ -14,6 +14,7 @@ Build a machine simulator that accepts the following coins:
  - Dime (10 ¢)
  - Quarter (25 ¢)
 
+
 A glass of hot chocolate costs 25¢. The machine should give the user the product and the carry over.
 
 
